@@ -1,10 +1,4 @@
-import requests  
-import flet as ft
 
-set_toCelsius = False
-raining_orSnowing = False
-sunny = False
-cuurent_temperature = 
 
 def obtain_user_data():
     def ask_user_location():
@@ -14,14 +8,25 @@ def obtain_user_data():
         
         pass
 
-    def ask_CorF():     # celsius or fahrenheit 
+    def ask_CorF():     # celsius or fahrenheit mode 
         
         pass
 
     def obtain_location():
         pass
-    
 
+latitude =
+longitude =
+
+api_link = 'https://api.open-meteo.com/v1/forecast?latitude=' + latitude + '&longitude=' + longitude + '&current=temperature_2m,apparent_temperature,precipitation,rain,showers,snowfall&temperature_unit=fahrenheit&timezone=auto&forecast_days=1'
+
+
+# Generate a sprite sheet of an anthromorphic version of an animated shiba inu standing upright wearing:
+
+
+acessories = tuple('umbrella', 'earmuffs')
+
+clothes = tuple('shirt, shorts', 'sweater, pants', 'jacket, scarf, pants')
 
 def main(page: ft.Page):
 
